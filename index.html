@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>AMINIA HOTEL REGISTER</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link rel="icon" href="rajarhat_front (1).jpg">
+    </head>
+    <body>
+        <h1 class="Heading">HOTEL MANEGMENT REGISTER</h1>
+
+        <center>
+      
+            <h2 for="username" style="margin-top: 20px; margin-bottom: 20px; ">
+                GUEST JOB
+            </h2>
+            
+            <div id="rows">
+            
+            <input type="text"  name="username" type="text" placeholder="Enter name" id="name1">
+            <button onclick="submit()" id="submit_button">Submit</button>
+    
+            <hr>
+            
+            <div id="display_name">
+            </div>
+            <hr>
+                <div id="Show1"><h3 id="hd1">Guest List</h3>
+                    <button onclick="show()" id="show">Show</button>
+                    <p id="p1"></p></div>
+                
+            <hr>
+            <button onclick="sorting()" id="sort_button">
+                Sorted List
+            </button>
+            
+            
+                <div id="sorted"></div>
+                </div>
+                <hr>
+                <input type="text" placeholder="Search name" id="s1">&nbsp;
+                <button onclick="searching()" id="srch">Search</button>
+                <p id="p2"></p>
+                
+            </center>
+
+    </body>
+</html>
